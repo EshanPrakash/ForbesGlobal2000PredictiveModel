@@ -4,9 +4,7 @@ By: Eshan Prakash
 
 ## Abstract:
 
-The Forbes Global 2000 is a yearly
-
-Work in Progress
+The Forbes Global 2000 is an annual ranking of hte top 2000 public companies in the world, published by Forbes magazine. This paper attempts to utilize machine learning and data science in order to determine the most important factors when ranking these companies and to ultimately predict the top 10 Forbes Global 2000 companies in 2024. Multiple factors that I have found to contribute to top 10 placement include Sales, Assets, and Market Value. These factors can then be put into a logistic regression model, which will in turn predict what companies will rank in the top 10. This results of this study can be used to predict future top 10 contenders of the Forbes Global 2000 and give insight into the factors that affect a corporation's chances of being in the top 10.
 
 ## Introduction:
 
