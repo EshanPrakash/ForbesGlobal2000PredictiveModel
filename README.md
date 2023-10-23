@@ -18,9 +18,11 @@ Work in Progress
 
 ### Data Collection
 
-The first step was determining an efficient way to collect Forbes Global 2000 data from previous years. Instead of manually going through the datasets uploaded by Forbes onto their website, I instead chose to collect data through user-uploaded databases on Kaggle. I downloaded these datasets off of Kaggle in the csv file format, which made each of these datasets compatible with the Pandas Python library. Use of the Pandas library allowed for specific information on corporations, which made the processes of data organization and anlaysis easier later down the line. Through preliminary data analysis, I discovered that a number of corporations consistently placed in the top 10 of the Global 2000 over a period of multiple years. This was useful information since the end goal of this project was to predict what corporations would be most likely to place in the top 10 of the Global 2000 in 2024. As a result, I could utilize 2023 Global 2000 data to make predictions for 2024. This meant that, for the purposes of training a model, I could only use data up until 2021.
+The first step was determining an efficient way to collect Forbes Global 2000 data from previous years. Instead of manually going through the datasets uploaded by Forbes onto their website, I instead chose to collect data through user-uploaded databases on Kaggle. Due to the nature of Kaggle databases being user-uploaded, it was not possible to get the data from every year from 2013 to 2023. Instead, the only datasets available were from years 2013, 2015, 2017, 2020, 2021, and 2023. I downloaded these datasets off of Kaggle in the csv file format, which made each of these datasets compatible with the Pandas Python library. Use of the Pandas library allowed for specific information on corporations, which made the processes of data organization and anlaysis easier later down the line. Through preliminary data analysis, I discovered that a number of corporations consistently placed in the top 10 of the Global 2000 over a period of multiple years. This was useful information since the end goal of this project was to predict what corporations would be most likely to place in the top 10 of the Global 2000 in 2024. As a result, I could utilize 2023 Global 2000 data to make predictions for 2024. This meant that, for the purposes of training a model, I could only use data up until 2021.
 
 ### Data Cleaning
+
+Next, I took 
 
 Work in Progress
 
