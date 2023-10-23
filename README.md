@@ -22,13 +22,11 @@ The first step was determining an efficient way to collect Forbes Global 2000 da
 
 ### Data Cleaning
 
-Next, I took 
-
-Work in Progress
+Next, I took the data for each Forbes Global 2000 from 2013, 2015, 2017, 2020, and 2021 and merged them all into one master dataframe. I did not include the year 2023 in this master dataframe as the intention was to use 2023 for the purposes of prediction, not training. After the creation of the master dataframe, data cleaning had to be done. Many rows from the master dataframe either contained string values, or contained the special number NaN. When training a regression model, the model is unable to process NaN or string values, meaning that these values had to be cleaned up. I used the to_numeric function of Pandas in order to change all of the strings to floats, and used the dropna() function of Pandas in order to drop every row containing a NaN value. I then had to remove the "Company", "Country", "publish_year", "Rank", "Sector", "Industry", and "Continent" columns from the dataframe, as these were all columns containing data otherwise irrelevant. I then added a column "top_10" that was a categorical value (0 or 1) that stated whether a company had ever been in the top 10 or not.
 
 ### Data Analysis and Predictions
 
-Work in Progress
+My next step was actually creating a logistic regression model in Python. I used SciKitLearn, a software library written for Python for machine learning, to read the data from the master dataframe and create a logistic regression model based off of it. First, I created a heatmap using the Seaborn Python library to determine the most important factors when deciding whta corporations would be in the top 10. Based on the heatmap, overall Sales, Assets, and Market Value were the three most important attributees. The correlation coefficient between Sales and being top 10 was 0.13, the correlation coefficient between Assets and being top 10 was 0.43, and the correlation coefficient between Market Value was 0.26. Next, before creating the logistic regression model, I made sure to drop the "Profits" column as there was a negative correlation between Profits and being in the top 10. Afterwards, I began to create the machine learning model, setting the testing size to 0.2 (or 20% of the entire master dataset). According to the .score() function of SciKitLearn, the model created had a 99.6% accuracy rate. The final step was using the model to then predict possible top 10 candidates for the Forbes Global 2000 of 2024. I loaded in the previous dataset of 2023's data and plugged it into the logistic regression model. The model predicted the following corporations in decreasing probability of being in the top 10 Forbes Global 2000 of 2024: ICBC, Apple, Agricultural Bank of China, China Construction Bank, Saudi Arabian Oil Company (Saudi Aramco), Microsoft, Bank of China, JPMorgan Chase, Fannie Mae, Bank of America, Alphabet, HSBC Holdings, Freddie Mac, Amazon, and Mitsubishi UFJ Financial.
 
 ## Results:
 
