@@ -69,3 +69,8 @@ Work in Progress
 ### Master Dataframe:
 
 ![ForbesGlobal2000PredictiveModelMasterDataFrame](https://github.com/EshanPrakash/ForbesGlobal2000PredictiveModel/assets/148392140/dd842c38-8cfe-4036-886b-e68fc226fe22)
+
+## References:
+
+https://www.forbes.com/sites/andreamurphy/2023/05/16/the-global-2000s-20th-anniversary-how-weve-crunched-the-numbers-for-the-past-two-decades/
+
