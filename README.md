@@ -34,7 +34,25 @@ Work in Progress
 
 Work in Progress
 
-## Images:
+### Table:
+
+| Company Name  | Top 10 Probability |
+| ------------- | ------------- |
+| ICBC  | 99.9814%  |
+| Apple  | 99.9342%  |
+| Agricultural Bank of China | 99.8344% |
+| China Construction Bank | 99.6680% |
+| Saudi Arabian Oil Company (Saudi Aramco) | 99.6136% |
+| Microsoft | 99.1926% |
+| Bank of China | 98.2082% |
+| JPMorgan Chase | 97.7346% |
+| Fannie Mae | 95.5958% |
+| Bank of America | 81.3637% |
+| Alphabet | 62.3738% |
+| HSBC Holdings | 61.4046% |
+| Freddie Mac | 59.1694% |
+| Amazon | 58.2702% |
+| Mitsubishi UFJ Financial | 50.4014% |
 
 ### Heatmap:
 
