@@ -4,15 +4,19 @@ By: Eshan Prakash
 
 ## Abstract:
 
-The Forbes Global 2000 is an annual ranking of hte top 2000 public companies in the world, published by Forbes magazine. This paper attempts to utilize machine learning and data science in order to determine the most important factors when ranking these companies and to ultimately predict the top 10 Forbes Global 2000 companies in 2024. Multiple factors that I have found to contribute to top 10 placement include Sales, Assets, and Market Value. These factors can then be put into a logistic regression model, which will in turn predict what companies will rank in the top 10. This results of this study can be used to predict future top 10 contenders of the Forbes Global 2000 and give insight into the factors that affect a corporation's chances of being in the top 10.
+The Forbes Global 2000 is an annual ranking of the top 2000 public companies in the world, published by Forbes magazine. This paper attempts to utilize machine learning and data science in order to determine the most important factors when ranking these companies and to ultimately predict the top 10 Forbes Global 2000 companies in 2024. Multiple factors that I have found to contribute to top 10 placement include Sales, Assets, and Market Value. These factors can then be put into a logistic regression model, which will in turn predict what companies will rank in the top 10. This results of this study can be used to predict future top 10 contenders of the Forbes Global 2000 and give insight into the factors that affect a corporation's chances of being in the top 10.
 
 ## Introduction:
 
-Work in Progress
+Logistic regression is a predictive analysis that cana be used to describe data and explain the relationship between a single binary variable and one or more normal, ordinal, ratio-level, or interval variables. Regarding the placement corporations in the top 10 of the Forbes Global 2000, the use of logistic regression may be useful.
+
+This paper focuses on the Forbes Global 2000, an annual ranking of the top 2000 corporations in the entire world that has been established in 2003. The Global 2000 ranks the largest companies in the world based on Sales, Profits, Assets, and Market Value. Four different lists are created, one for each main parameter, and then companies are put into those lists based on how high their Sales, Profits, Assets, and Market Values are. Each company then recieves a separate score for each metric based on where the company places within each metric's individual list. The scores of each company are then added up with equal weightage to compile a composite score for each company based on all four metrics. The companies are then sorted by descending order by their composite scores and then applied to the Forbes Global 2000 ranking.
+
+By training a logistic model on the same four parameters used for the Forbes Global 2000, it is possible to make highly accurate predictions of future company placements based on those companies' projected Sales, Profits, Assets, and Market Value. Due to the mathematical and unbiased nature of logistic regression, the model I create should be fairly accurate.
+
+This paper aims to analyze a practical use for logistic regression and machine learning. It focuses on creating a logistic regression model, which will then be applied to determine the future top 10 candidates of the Forbes Global 2000 in 2024 will be. It will do this by looking at multiple factors that have a clear correlation with being in the top 10 of previous Forbes Global 2000 rankings.
 
 ## Methods:
-
-Work in Progress
 
 ### Data Collection
 
