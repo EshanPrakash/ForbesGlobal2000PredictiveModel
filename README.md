@@ -20,7 +20,7 @@ This paper aims to analyze a practical use for logistic regression and machine l
 
 ### Data Collection
 
-The first step was determining an efficient way to collect Forbes Global 2000 data from previous years. Instead of manually going through the datasets uploaded by Forbes onto their website, I instead chose to collect data through user-uploaded databases on Kaggle. Due to the nature of Kaggle databases being user-uploaded, it was not possible to get the data from every year from 2013 to 2023. Instead, the only datasets available were from years 2013, 2015, 2017, 2020, 2021, and 2023. I downloaded these datasets off of Kaggle in the csv file format, which made each of these datasets compatible with the Pandas Python library. Use of the Pandas library allowed for specific information on corporations, which made the processes of data organization and anlaysis easier later down the line. Through preliminary data analysis, I discovered that a number of corporations consistently placed in the top 10 of the Global 2000 over a period of multiple years. This was useful information since the end goal of this project was to predict what corporations would be most likely to place in the top 10 of the Global 2000 in 2024. As a result, I could utilize 2023 Global 2000 data to make predictions for 2024. This meant that, for the purposes of training a model, I could only use data up until 2021.
+The first step was determining an efficient way to collect Forbes Global 2000 data from previous years. Instead of manually going through the datasets uploaded by Forbes onto their website, I instead chose to collect data through user-uploaded databases on Kaggle. The databases I took came from users Ashwini Swain, Raphael Fontes, Shivam Bansal, and Viola Kwong. Due to the nature of Kaggle databases being user-uploaded, it was not possible to get the data from every year from 2013 to 2023. Instead, the only datasets available were from years 2013, 2015, 2017, 2020, 2021, and 2023. I downloaded these datasets off of Kaggle in the csv file format, which made each of these datasets compatible with the Pandas Python library. Use of the Pandas library allowed for specific information on corporations, which made the processes of data organization and anlaysis easier later down the line. Through preliminary data analysis, I discovered that a number of corporations consistently placed in the top 10 of the Global 2000 over a period of multiple years. This was useful information since the end goal of this project was to predict what corporations would be most likely to place in the top 10 of the Global 2000 in 2024. As a result, I could utilize 2023 Global 2000 data to make predictions for 2024. This meant that, for the purposes of training a model, I could only use data up until 2021.
 
 ### Data Cleaning
 
@@ -32,11 +32,13 @@ My next step was actually creating a logistic regression model in Python. I used
 
 ## Results:
 
-Work in Progress
+The results were similar to what was expected. I determined that the most correlated factors to determining top 10 placement were Assets, Sales, and Market Value. This mostly matches up with Forbes' own statements on their methodology for determining the Global 2000, with one discrepancy being that Profits actually had a negative correlation with placing in the top 10, contrary to Forbes' claims. My results to the top 10 of 2024 consist of 15 mian corporations. Many of these corporations have previously and consistently appeared on the Forbes Global 2000, adding credibility to the model's results.
+
+The majority of the corporations in my results have had major recent economic successes, furthering the confirmation that the model works. These corporations were chosen based on the previous 3 factors that I found were the greatest factors: Assets, Sales, and Market Value. In terms of the data obtained through logistic regression, the model itself and therefore the predictions of the model returned a high probability of accuracy, 99.6%. While this value is not perfect, it is enough to label the model's predictions as statistically significant. Understanding the potential such logistical models can have when predicting the Forbes Global 2000 top 10 candidates is key to understanding economics because of its application to the real world. With the ability to predict the success of companies in the future, one could gain an advantage in numerous things, most notably investing in these companies. These results provide insight into the opportunities for logistic models which measure the effects that multiple factors can have in the future.
 
 ## Conclusion:
 
-Work in Progress
+Based on the numeric results from the logistic regression model, ICBC, Apple, Agricultural Bank of China, China Construction Bank, Saudi Arabian Oil Company (Saudi Aramco), Microsoft, Bank of China, JPMorgan Chase, Fannie Mae, and Bank of America are the ten most likely corporations to place in the top 10 of the Forbes Global 2000 in 2024. Since, with the exception of Bank of America, the difference in probability of placing in the top 10 between each corporation is so minimal, it is not possible to predict the exact placement that each corporation will have, only that they will be in the top 10. In addition, I determined that the most important factors when determining if a corporation will be in the top 10 of the Forbes Global 2000 are: Assets, Sales, and Market Value.
 
 ### Table:
 
@@ -72,5 +74,15 @@ Work in Progress
 
 ## References:
 
+https://www.forbes.com/lists/global2000/?sh=2bd11cb25ac0
+
 https://www.forbes.com/sites/andreamurphy/2023/05/16/the-global-2000s-20th-anniversary-how-weve-crunched-the-numbers-for-the-past-two-decades/
+
+https://www.kaggle.com/datasets/ash316/forbes-top-2000-companies
+
+https://www.kaggle.com/datasets/unanimad/forbes-2020-global-2000-largest-public-companies
+
+https://www.kaggle.com/datasets/shivamb/fortune-global-2000-companies-till-2021
+
+https://www.kaggle.com/datasets/kwongmeiki/forbes-the-global-2000-rankings-2023
 
