@@ -33,3 +33,7 @@ Work in Progress
 ## Conclusion:
 
 Work in Progress
+
+## Images:
+
+![ForbesGlobal2000PredictiveModelHeatMap](https://github.com/EshanPrakash/ForbesGlobal2000PredictiveModel/assets/148392140/a788eb13-1b2d-4683-b59e-7c06d90a7f24)
