@@ -37,3 +37,7 @@ Work in Progress
 ## Images:
 
 ![ForbesGlobal2000PredictiveModelHeatMap](https://github.com/EshanPrakash/ForbesGlobal2000PredictiveModel/assets/148392140/a788eb13-1b2d-4683-b59e-7c06d90a7f24)
+
+![ForbesGlobal2000PredictiveModelConfusionMatrix](https://github.com/EshanPrakash/ForbesGlobal2000PredictiveModel/assets/148392140/e85d7695-429d-4f18-9d2e-8c524b860ad0)
+
+![ForbesGlobal2000PredictiveModelMasterDataFrame](https://github.com/EshanPrakash/ForbesGlobal2000PredictiveModel/assets/148392140/dd842c38-8cfe-4036-886b-e68fc226fe22)
