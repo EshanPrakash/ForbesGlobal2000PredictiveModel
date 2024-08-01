@@ -1,4 +1,4 @@
-# A Computational Approach to Understanding the Future Economic Performance of Corporations
+# Computational Insights on Future Corporate Economic Performance
 
 By: Eshan Prakash
 
